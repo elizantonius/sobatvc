@@ -1,0 +1,393 @@
+CRITICAL - 2021-11-27 12:50:13 -->  route cannot be found while reverse-routing.
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Pendaftaran.php(27): redirect()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Pendaftaran->adddata()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+ERROR - 2021-11-27 12:50:36 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-11-27 12:50:36 --> Duplicate entry '0' for key 'PRIMARY'
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(738): CodeIgniter\Model->doInsert()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(620): CodeIgniter\BaseModel->insert()
+#7 /home/rygba/Workstation/sobatvc/app/Controllers/Pendaftaran.php(24): CodeIgniter\Model->insert()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Pendaftaran->adddata()
+#9 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#10 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#13 {main}
+CRITICAL - 2021-11-27 12:52:44 -->  route cannot be found while reverse-routing.
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Pendaftaran.php(27): redirect()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Pendaftaran->adddata()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 12:53:41 -->  route cannot be found while reverse-routing.
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Pendaftaran.php(27): redirect()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Pendaftaran->adddata()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 12:55:48 -->  route cannot be found while reverse-routing.
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Pendaftaran.php(27): redirect()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Pendaftaran->adddata()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:15:35 --> Unclosed '{' on line 33
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:16:21 --> Unclosed '{' on line 32
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:17:06 --> Unclosed '{' on line 32
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(14): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:17:58 --> Unclosed '{' on line 32
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:18:24 --> Unclosed '{' on line 32
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:19:40 --> Unclosed '{' on line 32
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:20:22 --> Unclosed '{' on line 32
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:20:51 --> Unclosed '{' on line 31
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:22:20 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:23:24 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:26:04 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 13:27:31 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 19:49:28 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 19:50:00 --> Too few arguments to function App\Controllers\Admin\Tabel::index(), 0 passed in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php on line 824 and exactly 1 expected
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-11-27 19:50:43 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 19:50:54 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 19:53:02 --> Unclosed '{' on line 31
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 19:56:08 --> Unclosed '{' on line 31
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 19:58:16 --> Unclosed '{' on line 32
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 19:59:12 --> Unclosed '{' on line 32
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 19:59:58 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 20:03:36 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 20:03:54 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 20:04:04 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 20:04:39 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 20:06:08 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 20:07:12 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 20:09:22 --> syntax error, unexpected end of file
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-11-27 20:11:30 --> foreach() argument must be of type array|object, null given
+#0 /home/rygba/Workstation/sobatvc/app/Views/Admin/Tabel_vw.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2021-11-27 20:11:51 --> foreach() argument must be of type array|object, null given
+#0 /home/rygba/Workstation/sobatvc/app/Views/Admin/Tabel_vw.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(16): view()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->index()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2021-11-27 20:14:54 --> Undefined variable $list
+#0 /home/rygba/Workstation/sobatvc/app/Views/Admin/Tabel_vw.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2021-11-27 20:15:37 --> Undefined variable $list
+#0 /home/rygba/Workstation/sobatvc/app/Views/Admin/Tabel_vw.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
+CRITICAL - 2021-11-27 20:16:05 --> Undefined variable $list
+#0 /home/rygba/Workstation/sobatvc/app/Views/Admin/Tabel_vw.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(214): include('...')
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#4 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Home.php(17): view()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Home->index()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}

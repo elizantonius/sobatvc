@@ -32,6 +32,7 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Pendaftaran::index');
+$routes->resource('Pendaftaran/Adddata');
 $routes->resource('Auth');
 $routes->resource('Admin/Home');
 
