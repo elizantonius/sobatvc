@@ -9,7 +9,8 @@ class Pendaftaran extends BaseController
 {
     public function index()
     {
-        return view('Pendaftaran_vw');
+        $data['judul'] = 'Pendaftaran Sobat VC';
+        return view('Pendaftaran_vw', $data);
     }
 
 

@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="author" content="Kodinger">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>My Login Page</title>
+    <title><?= $judul ?></title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/my-login.css">
 </head>
@@ -21,10 +21,10 @@
                     <div class="card fat">
                         <div class="card-body">
                             <h4 class="card-title">Login</h4>
-                            <form method="POST" class="my-login-validation" novalidate="">
+                            <form method="POST" action="Auth/login" class="my-login-validation" novalidate="">
                                 <div class="form-group">
-                                    <label for="email">Username</label>
-                                    <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control" name="username">
                                     <div class="invalid-feedback">
                                         Email is invalid
                                     </div>
@@ -32,8 +32,8 @@
 
                                 <div class="form-group">
 
-                                    <label for="email">Password</label>
-                                    <input id="password" type="password" class="form-control" name="password">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" name="password">
                                     <div class="invalid-feedback">
                                         Password is required
                                     </div>
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                     <div class="footer">
-                        Copyright &copy; 2017 &mdash; Your Company
+                        Copyright &copy; 2021 &mdash; Sobat VC
                     </div>
                 </div>
             </div>

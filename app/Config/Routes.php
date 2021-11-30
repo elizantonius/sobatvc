@@ -34,6 +34,8 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Pendaftaran::index');
 $routes->resource('Pendaftaran/Adddata');
 $routes->resource('Auth');
+$routes->resource('Auth/Login');
+$routes->resource('Auth/Logout');
 $routes->resource('Admin/Home');
 
 /*
