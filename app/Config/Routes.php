@@ -31,12 +31,19 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Pendaftaran::index');
+$routes->get('/', 'Auth::index');
 $routes->resource('Pendaftaran/Adddata');
 $routes->resource('Auth');
 $routes->resource('Auth/Login');
 $routes->resource('Auth/Logout');
 $routes->resource('Admin/Home');
+$routes->resource('Admin/Tabel/updata/(:any)');
+$routes->resource('Admin/TabelSales');
+
+
+//Sales Route
+$routes->resource('Sales/Reperal');
+
 
 /*
  * --------------------------------------------------------------------

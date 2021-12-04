@@ -61,6 +61,6 @@ class Filters extends BaseConfig
      * @var array
      */
     public $filters = [
-        'auth' => ['before' => ['Admin', 'Admin/Home', 'Admin/Tabel']],
+        'auth' => ['before' => ['Admin', 'Admin/Home', 'Admin/Tabel', 'Sales', 'Sales/Home']],
     ];
 }

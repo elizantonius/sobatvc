@@ -1,0 +1,72 @@
+CRITICAL - 2021-12-02 06:41:38 --> Attempt to read property "namasales" on null
+#0 /home/rygba/Workstation/sobatvc/app/Controllers/Sales/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Sales\Home->index()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-12-02 06:43:04 --> Attempt to read property "namasales" on null
+#0 /home/rygba/Workstation/sobatvc/app/Controllers/Sales/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Sales\Home->index()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-12-02 06:43:23 --> Attempt to read property "namasales" on null
+#0 /home/rygba/Workstation/sobatvc/app/Controllers/Sales/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Sales\Home->index()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-12-02 06:44:11 --> Attempt to read property "namasales" on null
+#0 /home/rygba/Workstation/sobatvc/app/Controllers/Sales/Home.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Sales\Home->index()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#6 {main}
+CRITICAL - 2021-12-02 07:19:20 --> Invalid file: sales/reperal_add.php
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Sales/Reperal.php(13): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Sales\Reperal->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-02 07:19:24 --> Invalid file: sales/reperal_add.php
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Sales/Reperal.php(13): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Sales\Reperal->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-02 07:20:59 --> Invalid file: sales/reperal_add.php
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Sales/Reperal.php(13): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Sales\Reperal->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-02 07:22:49 --> Invalid file: sales/reperal_add.php
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Common.php(1097): CodeIgniter\View\View->render()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Sales/Reperal.php(13): view()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Sales\Reperal->index()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}

@@ -16,7 +16,7 @@
             <div class="row justify-content-md-center h-100">
                 <div class="card-wrapper">
                     <div class="brand">
-                        <img src="img/logo.jpg" alt="logo">
+                        <img src="<?= base_url() ?>/img/logo2.jpeg" alt="logo">
                     </div>
                     <div class="card fat">
                         <div class="card-body">
@@ -45,6 +45,11 @@
                                         Login
                                     </button>
                                 </div>
+
+                                <hr />
+                                <p class="mb-0">
+                                    <a href="<?= base_url() ?>/pendaftaran" class="text-center">Belum punya akun? Mendaftar!</a>
+                                </p>
 
                             </form>
                         </div>

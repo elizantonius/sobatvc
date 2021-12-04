@@ -16,43 +16,52 @@
             <div class="row justify-content-md-center h-100">
                 <div class="card-wrapper">
                     <div class="brand">
-                        <img src="img/logo.jpg" alt="bootstrap 4 login page">
+                        <img src="<?= base_url() ?>/img/logo2.jpeg" alt="bootstrap 4 login page">
                     </div>
                     <div class="card fat">
                         <div class="card-body">
                             <h4 class="card-title">Pendaftaran</h4>
                             <form action="<?= base_url('Pendaftaran/adddata') ?>" method="POST">
                                 <div class="form-group">
-                                    <label for="name">Name Pemilik Usaha</label>
-                                    <input type="text" class="form-control" name="namown" required autofocus>
+                                    <label for="name">Nama Sales</label>
+                                    <input type="text" class="form-control" name="namasales" required autofocus>
                                     <div class="invalid-feedback">
                                         What's your name?
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="email">NO. KTP</label>
-                                    <input type="text" class="form-control" name="ktp" required>
+                                    <label for="email">No. Hp</label>
+                                    <input type="text" class="form-control" name="nohp" required>
                                     <div class="invalid-feedback">
-                                        Your email is invalid
+                                        No Hp is required
                                     </div>
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="password">Alamat Usaha</label>
-                                    <input type="text" class="form-control" name="alamat">
+                                    <label for="password">Distributor</label>
+                                    <input type="text" class="form-control" name="distributor">
+                                    <div class="invalid-feedback">
+                                        Distributor is required
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">Username</label>
+                                    <input type="text" class="form-control" name="username">
+                                    <div class="invalid-feedback">
+                                        Username is required
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" name="password">
                                     <div class="invalid-feedback">
                                         Password is required
                                     </div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="password">No Hp</label>
-                                    <input type="text" class="form-control" name="nohp">
-                                    <div class="invalid-feedback">
-                                        Password is required
-                                    </div>
-                                </div>
 
 
 
@@ -61,11 +70,16 @@
                                         Daftar
                                     </button>
                                 </div>
+                                <hr />
+                                <p class="mb-0">
+                                    <a href="<?= base_url() ?>/auth" class="text-center">Sudah punya akun? Login!</a>
+                                </p>
+
                             </form>
                         </div>
                     </div>
                     <div class="footer">
-                        Copyright &copy; 2017 &mdash; Sobat VC
+                        Copyright &copy; 2021 &mdash; Sobat VC
                     </div>
                 </div>
             </div>

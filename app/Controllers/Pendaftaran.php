@@ -3,12 +3,14 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use App\Models\Daftar;
+use App\Models\Users;
 
 class Pendaftaran extends BaseController
 {
     public function index()
     {
+        // $model = new Daftar();
+        // $sales = $model->postSales();
         $data['judul'] = 'Pendaftaran Sobat VC';
         return view('Pendaftaran_vw', $data);
     }
@@ -16,15 +18,17 @@ class Pendaftaran extends BaseController
 
     public function adddata()
     {
-        $model = new Daftar();
+        $model = new Users();
         $model->insert([
 
-            'namaowner' => $this->request->getPost('namown'),
-            'noktp' => $this->request->getPost('ktp'),
-            'alamatusaha' => $this->request->getPost('alamat'),
-            'nohp' => $this->request->getPost('nohp')
+            'namasales' => $this->request->getPost('namasales'),
+            'nohp' => $this->request->getPost('nohp'),
+            'distributor' => $this->request->getPost('distributor'),
+            'username' => $this->request->getPost('username'),
+            'password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
+            'role' => 'seles'
         ]);
 
-        return redirect()->to('Pendaftaran');
+        return redirect()->to(base_url('Auth'));
     }
 }

@@ -23,23 +23,41 @@
             <thead>
                 <tr>
 
-                    <th>Nama Owner</th>
-                    <th>NO.KTP</th>
+                    <th>Nama Pemilik</th>
+                    <th>No.Hp</th>
+                    <th>Nama Usaha</th>
                     <th>Alamat Usaha</th>
-                    <th>No HP</th>
+                    <th>Metode Akusisi</th>
+                    <th>Foto KTP</th>
+                    <th>Status</th>
+                    <th>Tanggal Pendaftaran</th>
+                    <th>Nama Sales</th>
+                    <th>Aksi</th>
                 </tr>
             </thead>
             <tbody>
-                <?php foreach ($list as $baris) { ?>
-                    <td><?= $baris['namaowner']; ?>
-                    </td>
-                    <td><?= $baris['noktp']; ?></td>
-                    <td><?= $baris['alamatusaha']; ?></td>
+                <?php foreach ($list as $key => $baris) { ?>
+                    <td><?= $baris['namapemilik']; ?></td>
                     <td><?= $baris['nohp']; ?></td>
-
-            </tbody>
-        <?php } ?>
-        </table>
-
+                    <td><?= $baris['namausaha']; ?></td>
+                    <td><?= $baris['alamatusaha']; ?></td>
+                    <td><?= $baris['metode_akusisi']; ?></td>
+                    <td><a href="javascript:void()" data-toggle="modal" data-target="#viewImage<?= $key ?>"><?= $baris['foto']; ?></a></td>
+                    <td><?= $baris['status']; ?></td>
+                    <td><?= $baris['Tanggal']; ?></td>
+                    <td><?= $baris['namasales']; ?></td>
+                    <td><a href="<?= base_url('admin/tabel/updata/' . $baris['idreperal']) ?>" class="btn btn-primary">Closing</a></td>
+                    <div class="modal fade" id="viewImage<?= $key ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <img src="<?= base_url() . '/admin/fotoktp/' . $baris['foto'] ?>" alt="" width="100%">
+                        </div>
+                    </div>
     </div>
+
+
+    </tbody>
+<?php } ?>
+</table>
+
+</div>
 </div>

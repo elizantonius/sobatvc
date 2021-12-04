@@ -25,17 +25,16 @@ class Auth extends BaseController
         $user = $this->request->getVar('username');
         $password = $this->request->getVar('password');
         $data = $modelusr->where('username', $user)->first();
-        if ($data) {
+        if (!is_null($data)) {
             $pass = $data['password'];
-            $paswd = password_verify($password, $pass);
-            if ($paswd) {
-                $dataku = [
-                    'id' => $data['id'],
-                    'username' => $data['username'],
-                    'isLogin' => true
-                ];
-                $sesi->set($dataku);
-                return redirect()->to(base_url('Admin'));
+            if (password_verify($password, $pass)) {
+                $data['isLogin'] = true;
+                $sesi->set($data);
+                if ($data['role'] == 'admin') {
+                    return redirect()->to(base_url('Admin/Home'));
+                } else {
+                    return redirect()->to(base_url('Sales/Home'));
+                }
             }
         }
     }
@@ -44,6 +43,6 @@ class Auth extends BaseController
     {
         $session = session();
         $session->destroy();
-        return redirect()->to('Auth');
+        return redirect()->to(base_url('Auth'));
     }
 }
