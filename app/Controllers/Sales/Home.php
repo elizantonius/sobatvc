@@ -22,6 +22,7 @@ class Home extends BaseController
         $session->set($data);
 
         $data['totalReferal'] = count($this->model->where(['status' => 'proses', 'idusers' => $session->get('idusers')])->get()->getResult());
+        $data['totalClosing'] = count($this->model->where(['status' => 'closing', 'idusers' => $session->get('idusers')])->get()->getResult());
         $data['totalReword'] = $this->model->hitungReward();
 
         echo view('Sales/component/Header');

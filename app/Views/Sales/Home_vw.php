@@ -21,13 +21,13 @@
     <div class="col d-flex justify-content-center">
         <div class="card" style="width: 35rem;">
             <div class="card-body">
-                <p><b>Reperal: <?= $totalReferal ?></b></p>
-                <p><b>Closing Reperal: <?= $totalReword['jumlah'] ?></b></p>
-                <p><b>Reward: <?= number_format($totalReword['jumlah'] * 50000, 2, '.', ',') ?></b></p>
+                <p><b>Referal: <?= $totalReferal ?></b></p>
+                <p><b>Closing Referal: <?= $totalClosing ?></b></p>
+                <p><b>Reward: <?= number_format($totalClosing * 50000, 2, '.', ',') ?></b></p>
                 <hr />
                 <!-- Button trigger modal -->
                 <button type="button" class=" btn btn-primary " data-toggle="modal" data-target="#exampleModal">
-                    Tambah Reperal
+                    Tambah Referal
                 </button>
 
                 <!-- Modal -->
@@ -35,7 +35,7 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Tambah Reperal</h5>
+                                <h5 class="modal-title" id="exampleModalLabel">Tambah Referal</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -93,7 +93,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-primary">Simpan Reperal</button>
+                                        <button type="submit" class="btn btn-primary">Simpan Referal</button>
                                     </div>
 
                                 </form>

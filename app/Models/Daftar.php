@@ -65,7 +65,7 @@ class Daftar extends Model
     public function hitungReward()
     {
         $thisMonth = date("m");
-        $jumlah = $this->db->query("SELECT COUNT(*) AS jumlah FROM reperal WHERE MONTH(tanggal)='$thisMonth' AND status = 'closing'")->getRowArray();
+        $jumlah = $this->db->query("SELECT COUNT(*) AS jumlah FROM reperal WHERE MONTH(Tanggal)='$thisMonth' AND status = 'closing'")->getRowArray();
         return $jumlah;
     }
 }
