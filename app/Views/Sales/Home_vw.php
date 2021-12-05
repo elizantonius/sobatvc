@@ -44,41 +44,41 @@
                                 <form action="<?= base_url('/sales/home/add') ?>" method="POST" enctype="multipart/form-data">
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Nama Pemilik</label>
-                                        <input type="text" class="form-control" name="namapemilik" aria-describedby="emailHelp">
+                                        <input type="text" class="form-control" name="namapemilik" aria-describedby="emailHelp" required>
 
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">No Hp</label>
-                                        <input type="text" class="form-control" name="nohp" aria-describedby="emailHelp">
+                                        <input type="text" class="form-control" name="nohp" aria-describedby="emailHelp" required>
 
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Nama Usaha</label>
-                                        <input type="text" class="form-control" name="namausaha" aria-describedby="emailHelp">
+                                        <input type="text" class="form-control" name="namausaha" aria-describedby="emailHelp" required>
 
                                     </div>
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Alamat Usaha</label>
-                                        <input type="text" class="form-control" name="alamatusaha" aria-describedby="emailHelp">
+                                        <input type="text" class="form-control" name="alamatusaha" aria-describedby="emailHelp" required>
 
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Tanggal</label>
-                                        <input type="date" class="form-control" name="tanggal" aria-describedby="emailHelp">
+                                        <input type="date" class="form-control" name="tanggal" aria-describedby="emailHelp" required>
 
                                     </div>
 
                                     <div class="mb-3">
                                         <label for="exampleInputEmail1" class="form-label">Metode Akusisi</label>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="metode" id="metode" value="Livin by Mandiri">
+                                            <input class="form-check-input" type="radio" name="metode" id="metode" value="Livin by Mandiri" required>
                                             <label class="form-check-label" for="flexRadioDefault1">
                                                 Livin by Mandiri
                                             </label>
                                         </div>
                                         <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="metode" id="metode" value="Manual">
+                                            <input class="form-check-input" type="radio" name="metode" id="metode" value="Manual" required>
                                             <label class="form-check-label" for="flexRadioDefault2">
                                                 Manual
                                             </label>

@@ -593,3 +593,17 @@ CRITICAL - 2021-12-04 10:13:17 --> CodeIgniter\Database\BaseResult::getFirstRow(
 #6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
 #7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
 #8 {main}
+ERROR - 2021-12-04 18:48:52 --> Error connecting to the database: Connection refused
+CRITICAL - 2021-12-04 18:48:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Connection refused
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 /home/rygba/Workstation/sobatvc/app/Controllers/Auth.php(27): CodeIgniter\BaseModel->first()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Auth->login()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#10 {main}
