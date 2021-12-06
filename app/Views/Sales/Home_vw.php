@@ -21,13 +21,13 @@
     <div class="col d-flex justify-content-center">
         <div class="card" style="width: 35rem;">
             <div class="card-body">
-                <p><b>Referal: <?= $totalReferal ?></b></p>
-                <p><b>Closing Referal: <?= $totalClosing ?></b></p>
+                <p><b>Referral: <?= $totalReferal ?></b></p>
+                <p><b>Closing Referral: <?= $totalClosing ?></b></p>
                 <p><b>Reward: <?= number_format($totalClosing * 50000, 2, '.', ',') ?></b></p>
                 <hr />
                 <!-- Button trigger modal -->
                 <button type="button" class=" btn btn-primary " data-toggle="modal" data-target="#exampleModal">
-                    Tambah Referal
+                    Tambah Referral
                 </button>
 
                 <!-- Modal -->
@@ -93,7 +93,7 @@
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-primary">Simpan Referal</button>
+                                        <button type="submit" class="btn btn-primary">Simpan Referral</button>
                                     </div>
 
                                 </form>
