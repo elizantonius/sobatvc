@@ -39,6 +39,9 @@ class Auth extends BaseController
                 echo "<script>Maaf , Username dan Password Salah</script>";
                 return redirect()->to(base_url('Auth'));
             }
+        } else {
+            echo "<script>Maaf , Username dan Password Tidak ditemukan</script>";
+            return redirect()->to(base_url('Auth'));
         }
     }
 
