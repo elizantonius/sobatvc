@@ -35,4 +35,12 @@ class Tabel extends BaseController
         return redirect()->to(base_url('admin/tabel'));
         $model->update($id, $status);
     }
+
+    public function hapus($id)
+    {
+
+        $model = new Daftar();
+        $model->where('idreperal', $id)->delete();
+        return redirect()->to(base_url('admin/tabel'));
+    }
 }

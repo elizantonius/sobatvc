@@ -36,8 +36,11 @@ $routes->resource('Pendaftaran/Adddata');
 $routes->resource('Auth');
 $routes->resource('Auth/Login');
 $routes->resource('Auth/Logout');
+
+//Admin Route
 $routes->resource('Admin/Home');
 $routes->resource('Admin/Tabel/updata/(:any)');
+$routes->resource('Admin/Tabel/hapus/(:num)');
 $routes->resource('Admin/TabelSales');
 
 

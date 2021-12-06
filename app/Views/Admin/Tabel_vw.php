@@ -5,7 +5,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Dashboard</h1>
+                    <h1 class="m-0">Tabel Referal</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
@@ -46,7 +46,9 @@
                     <td><?= $baris['status']; ?></td>
                     <td><?= $baris['Tanggal']; ?></td>
                     <td><?= $baris['namasales']; ?></td>
-                    <td><a href="<?= base_url('admin/tabel/updata/' . $baris['idreperal']) ?>" class="btn btn-primary">Closing</a></td>
+                    <td><a href="<?= base_url('admin/tabel/updata/' . $baris['idreperal']) ?>" class="btn btn-primary">Closing</a>
+                        <hr /> <a href="<?= base_url('admin/tabel/hapus/' .  $baris['idreperal']) ?>" class="btn btn-primary">Hapus</a>
+                    </td>
                     <div class="modal fade" id="viewImage<?= $key ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
                             <img src="<?= base_url() . '/admin/fotoktp/' . $baris['foto'] ?>" alt="" width="100%">
