@@ -42,7 +42,10 @@
                     <td><?= $baris['namausaha']; ?></td>
                     <td><?= $baris['alamatusaha']; ?></td>
                     <td><?= $baris['metode_akusisi']; ?></td>
-                    <td><a href="javascript:void()" data-toggle="modal" data-target="#viewImage<?= $key ?>"><?= $baris['foto']; ?></a></td>
+                    <td><a href="javascript:void()" data-toggle="modal" data-target="#viewImage<?= $key ?>"><?= $baris['foto']; ?></a>
+                        <hr />
+                        <a href="<?= base_url('admin/tabel/download/' . $baris['idreperal']) ?>" class="btn btn-primary">Download</a>
+                    </td>
                     <td><?= $baris['status']; ?></td>
                     <td><?= $baris['Tanggal']; ?></td>
                     <td><?= $baris['namasales']; ?></td>
@@ -51,7 +54,12 @@
                     </td>
                     <div class="modal fade" id="viewImage<?= $key ?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-lg">
-                            <img src="<?= base_url() . '/admin/fotoktp/' . $baris['foto'] ?>" alt="" width="100%">
+                            <div class="modal-content">
+                                <img src="<?= base_url() . '/admin/fotoktp/' . $baris['foto'] ?>" alt="" width="100%">
+                                <div class="modal-body">
+                                    <a href="<?= base_url('admin/tabel/download/') . '/' . $baris['idreperal'] ?>" target="_black" class="btn btn-primary btn-sm">Download</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
     </div>

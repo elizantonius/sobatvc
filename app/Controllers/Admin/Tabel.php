@@ -43,4 +43,11 @@ class Tabel extends BaseController
         $model->where('idreperal', $id)->delete();
         return redirect()->to(base_url('admin/tabel'));
     }
+
+    public function download($id)
+    {
+        $model = new Daftar();
+        $data = $model->where('idreperal', $id)->get()->getRowArray();
+        return $this->response->download('admin/fotoktp/' . $data['foto'], null);
+    }
 }

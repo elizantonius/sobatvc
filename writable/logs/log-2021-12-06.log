@@ -1,0 +1,276 @@
+CRITICAL - 2021-12-06 00:37:39 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 00:38:24 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 00:38:57 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 00:39:09 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 00:39:47 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 00:40:02 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 00:43:56 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 00:45:18 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(52): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:04:27 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:04:43 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:05:36 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:06:28 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:08:28 --> Object of class App\Models\Daftar could not be converted to string
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#5 {main}
+CRITICAL - 2021-12-06 01:08:51 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:19:26 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:29:57 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(50): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:30:58 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(50): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:43:26 --> CodeIgniter\Database\BaseResult::getFirstRow(): Argument #1 ($type) must be of type string, null given, called in /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php on line 143
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Model.php(143): CodeIgniter\Database\BaseResult->getFirstRow()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/BaseModel.php(523): CodeIgniter\Model->doFind()
+#2 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(50): CodeIgniter\BaseModel->find()
+#3 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#8 {main}
+CRITICAL - 2021-12-06 01:44:47 --> File not found: /admin/fotoktp/
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-12-06 01:45:25 --> File not found: http://localhost:8080/admin/fotoktp/
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-12-06 01:45:38 --> File not found: http://localhost:8080/public/admin/fotoktp/
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-12-06 01:45:49 --> File not found: /admin/fotoktp/
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-12-06 01:46:18 --> File not found: /admin/fotoktp/1430600418538.jpg
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-12-06 01:46:34 --> File not found: http://localhost:8080/admin/fotoktp/1430600418538.jpg
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-12-06 01:46:49 --> File not found: http://localhost:8080/public/admin/fotoktp/1430600418538.jpg
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-12-06 01:49:37 --> File not found: http://localhost:8080/public/admin/fotoktp/1430600418538.jpg
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
+CRITICAL - 2021-12-06 01:50:55 --> File not found: http://localhost:8080/admin/fotoktp/1430600418538.jpg
+#0 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Files/File.php(46): CodeIgniter\Files\Exceptions\FileNotFoundException::forFileNotFound()
+#1 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/DownloadResponse.php(107): CodeIgniter\Files\File->__construct()
+#2 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/HTTP/ResponseTrait.php(723): CodeIgniter\HTTP\DownloadResponse->setFilePath()
+#3 /home/rygba/Workstation/sobatvc/app/Controllers/Admin/Tabel.php(51): CodeIgniter\HTTP\Response->download()
+#4 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(824): App\Controllers\Admin\Tabel->download()
+#5 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController()
+#6 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/rygba/Workstation/sobatvc/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/rygba/Workstation/sobatvc/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('...')
+#9 {main}
