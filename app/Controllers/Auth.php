@@ -35,6 +35,9 @@ class Auth extends BaseController
                 } else {
                     return redirect()->to(base_url('Sales/Home'));
                 }
+            } else {
+                echo "<script>Maaf , Username dan Password Salah</script>";
+                return redirect()->to(base_url('Auth'));
             }
         }
     }
